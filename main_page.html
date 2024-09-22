@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Main</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        h1 {
+            margin: 15px;
+        }
+        div {
+            text-align: center;
+        }
+        .center-items {
+            text-align: center;
+        }
+        .top space {
+            margin-top: 200px;
+        }
+        .contact-info {
+            padding: 20px;
+            background-color: gray;
+            width: 225px;
+            border-radius: 10px;
+            color: white;
+            margin: 20px;
+        }
+        .box {
+            margin-top: 340px;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="col-3">
+        <div class="p-3 mb-2 bg-black text-white">
+            <h1 class="center-items">Меню</h1>
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group" style="text-align:center">
+                <button type="button" class="btn btn-primary">Главная</button>
+                <button type="button" class="btn btn-primary">Категории</button>
+                <button type="button" class="btn btn-primary">Контакты</button>
+                <button type="button" class="btn btn-primary">Заказы</button>
+            </div>
+            <div class="box">
+                <div class="btn-group, center-items" role="group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Пользователь
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Пользователь 1</a></li>
+                        <li><a class="dropdown-item" href="#">Пользователь 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-9">
+        <div class="row">
+            <h1>ГЛАВНАЯ</h1>
+            <h5>Вы находитесь на сайте, предназначенном для продажи товаров</h5>
+            <div class="col-4">
+                <div class="contact-info">
+                    <h3>Товар 1</h3>
+                    <p>100 $</p>
+                    <p>Описание товара</p>
+                    <button>Купить</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="contact-info">
+                    <h3>Товар 2</h3>
+                    <p>150 $</p>
+                    <p>Описание товара</p>
+                    <button>Купить</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="contact-info">
+                    <h3>Товар 3</h3>
+                    <p>200 $</p>
+                    <p>Описание товара</p>
+                    <button>Купить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

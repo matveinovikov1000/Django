@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        h1 {
+            margin: 15px;
+        }
+        div {
+            text-align: center;
+        }
+        .center-items {
+            text-align: center;
+        }
+        .top space {
+            margin-top: 200px;
+        }
+        .contact-info {
+            padding: 20px;
+            background-color: gray;
+            width: 225px;
+            border-radius: 10px;
+            color: white;
+            margin: 20px;
+        }
+        .box {
+            margin-top: 340px;
+        }
+        .box_left {
+            margin-left: 75px:
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="col-3">
+        <div class="p-3 mb-2 bg-black text-white">
+            <h1 class="center-items">Меню</h1>
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group" style="text-align:center">
+                <button type="button" class="btn btn-primary">Главная</button>
+                <button type="button" class="btn btn-primary">Категории</button>
+                <button type="button" class="btn btn-primary">Контакты</button>
+                <button type="button" class="btn btn-primary">Заказы</button>
+            </div>
+            <div class="box">
+                <div class="btn-group, center-items" role="group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Пользователь
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Пользователь 1</a></li>
+                        <li><a class="dropdown-item" href="#">Пользователь 2</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-9">
+        <div class="row">
+            <h1>КОНТАКТЫ</h1>
+            <div class="col-6">
+                <div class="card text-bg-secondary">
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Имя">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Почта">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" placeholder="Сообщение" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+              <h3>Наши контакты</h3>
+              <p>Тут находятся контакты техподдержки сайта</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
